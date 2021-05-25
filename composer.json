@@ -1,6 +1,15 @@
 {
   "name": "codeacious/mapper",
   "description": "Library for mapping domain models to RESTful HAL models.",
+  "license": "MIT",
+  "homepage": "https://github.com/CodeaciousAU/phplib-mapper",
+  "authors": [
+    {
+      "name": "Glenn Schmidt",
+      "email": "glenn@codeacious.com",
+      "homepage": "https://codeacious.com"
+    }
+  ],
   "type": "library",
   "require": {
     "php": ">=5.5",
@@ -13,7 +22,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-trunk": "1.0.x-dev"
+      "dev-master": "1.0.x-dev"
     }
   }
 }
