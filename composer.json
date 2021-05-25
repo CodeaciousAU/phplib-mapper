@@ -1,0 +1,19 @@
+{
+  "name": "codeacious/mapper",
+  "description": "Library for mapping domain models to RESTful HAL models.",
+  "type": "library",
+  "require": {
+    "php": ">=5.5",
+    "nocarrier/hal": "^0.9.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeacious\\Mapper\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-trunk": "1.0.x-dev"
+    }
+  }
+}
